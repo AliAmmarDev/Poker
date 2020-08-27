@@ -5,7 +5,6 @@ import java.util.*;
  * <p>Deals with Hands by identifiying different types of
  * hands given
  * </p>
- * @author sc16aa Ali Ammar
  */
 public class PokerHand extends CardCollection{
 

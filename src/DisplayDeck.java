@@ -9,10 +9,6 @@ import javafx.stage.Stage;
 
 /**
  * Simple JavaFX program to display a full deck of playing cards.
- *
- * <p>Provided for use in COMP1721 Coursework 2 (advanced solution).</p>
- *
- * @author Nick Efford
  */
 public class DisplayDeck extends Application {
   @Override

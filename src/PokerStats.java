@@ -7,9 +7,7 @@ import java.util.*;
  * These decks are shuffled randomly and each hand is displayed.
  * probabilities of game statistics are then provided.
  * </p>
- * @author sc16aa Ali Ammar
  */
-
 
 public class PokerStats{
     public static void main(String[] args){

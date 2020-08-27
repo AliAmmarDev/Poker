@@ -16,7 +16,6 @@ import javafx.util.Duration;
  *players. A hand is dealed to both players and the player
  *with the most points is the winner.
  * </p>
- * @author sc16aa Ali Ammar
  */
 public class PokerDeal extends Animate {
   private Scene secondScene, thirdScene;

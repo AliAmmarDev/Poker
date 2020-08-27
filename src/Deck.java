@@ -4,9 +4,9 @@ import java.util.*;
  * <p>
  * Will initialise a deck of cards for a game.
  * </p>
- * @author sc16aa Ali Ammar
  */
 public class Deck extends CardCollection{
+
 	/**
  	*Creates an object of type Deck containing 52 cards
  	*/
@@ -19,10 +19,11 @@ public class Deck extends CardCollection{
 			}
 		}
 	}
-		/**
-		 * Deals a card from deck
-		 * @return a card taken out from the deck
-		 */
+
+	/**
+	* Deals a card from deck
+	* @return a card taken out from the deck
+	*/
     public Card deal(){
     	if(this.cards.isEmpty()){
           throw new PokerException("Empty deck\n");
@@ -33,9 +34,10 @@ public class Deck extends CardCollection{
           return removeCard;
       }
     }
-		/**
-		 * Shuffles whole deck of cards
-		 */
+	
+	/**
+	* Shuffles whole deck of cards
+	*/
     public void shuffle(){
         Collections.shuffle(this.cards);
     }

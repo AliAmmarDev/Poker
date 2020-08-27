@@ -1,5 +1,3 @@
-// Correctness testing for COMP1721 Coursework 2 (Basic Solution)
-
 import org.junit.Before;
 import org.junit.Test;
 

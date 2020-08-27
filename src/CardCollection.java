@@ -9,10 +9,6 @@ import java.util.List;
  * <p>The intent is that this should form the basis for new classes
  * useful in card games.  It isn't meant to be instantiated itself and
  * is therefore declared as abstract.</p>
- *
- * <p>Provided for use in COMP1721 Coursework 2.</p>
- *
- * @author Nick Efford
  */
 public abstract class CardCollection {
 
